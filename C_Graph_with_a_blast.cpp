@@ -1,3 +1,10 @@
+/*Regarding the K part if there is a point intesection when a line is drawn from point a to point b we can only need 1 point at max, there was even a hint in question
+itself there was no MOD otherwise if k would have been greater than 1 we can create a case where value of nodes rises exponentially, now ofcourse if there is a 
+point between a and b we will take the value of k as 0 we can check that by seeing the GCD of dx and dy, if it is 1 then k is 0, where dx and dy are the distances 
+between points on x-axis and y-axis respectively now if it is not one let's say one point was (a,b) and other was (c,d) we can just take (a+1,d+1) as the stopping point
+and it's not hard to see why each time it will work and there will be no points in line segment (a,b) to (a+1,d+1) and (a+1,d+1) to (c,d) rest is just basic dijstra and
+implementation*/
+// Author and solution by: Yesh Agarwal (Valhalla_RL)
 #include <bits/stdc++.h>
 using namespace std;
 
