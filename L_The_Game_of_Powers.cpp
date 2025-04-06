@@ -5,6 +5,7 @@ eventually reach zero or start repeating in a loop. If it’s the first case the
 bit of k base with xi power say k^(x1)+k^(x2)+... and since it is in a loop we can get infinite number of k^(xi) for which the remainder is Y now, 
     (k^(x1)+k^(x2)+...)%num = (Y+Y+...)%num = (n*Y)%num. Now obviously n can be equal to num, so, (num*Y)%num = 0.
     Thus there always exists a possible combination. So the only answer is “YES”.*/
+// Author and solution by: Yesh Agarwal (Valhalla_RL)
 #include <bits/stdc++.h>
 
 using namespace std;
